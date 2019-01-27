@@ -1,42 +1,49 @@
 .bgimg {
-background-image: url("Background.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url("Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-}
 .center{
-background-color: #f2f2f2;
-text-align: center;
-margin: auto;
-width: 25%;
-border-style: solid;
-border-color: transparent grey grey transparent;
-border-width: 2px;
-border-radius: 15px;
-padding: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: auto;
+  width: 25%;
+  border-style: solid;
+  border-color: transparent grey grey transparent;
+  border-width: 2px;
+  border-radius: 15px;
+  padding: 50px;
 }
+
 .font{
-font-family: sans-serif;
-font-size: 25px;
-text-align: center;
-width: 100%;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
 }
+
 .navbar{
-text-align: center;
-background-color: #f2f2f2;
-overflow: hidden;
-position: fixed;
-bottom: 0;
-width: 100%;
-border-style: solid;
-border-color: transparent grey grey transparent;
-border-width: 2px;
-border-radius: 30px;
-padding: 10px;
+  text-align: center;
+  background-color: #f2f2f2;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-style: solid;
+  border-color: transparent grey grey transparent;
+  border-width: 2px;
+  border-radius: 30px;
+  padding: 10px;
 }
+<<<<<<< HEAD
 .block{
 padding: 15%;
 }
 .question{
+=======
+>>>>>>> e2921437c842c7dd3f2b95eee614291213ed560f
 
+.block{
+  padding: 15%;
 }
