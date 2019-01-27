@@ -1,0 +1,27 @@
+.bgimg {
+background-image: url("Background.jpg");
+background-repeat: no-repeat;
+}
+h1{
+background-color: #298A08;
+border-width: 10px 10px 10px 10px;
+border-style: solid;
+border-color: transparent transparent black black
+}
+.para1{
+background-color: white;
+text-align:center;
+border-style: solid;
+border-color: black;
+border-width: 5px;
+font-family: cursive;
+}
+.para2{
+background-color: white;
+text-align:left;
+border-style: solid;
+border-color: black;
+border-width: 5px;
+font-family: cursive;
+}
+
