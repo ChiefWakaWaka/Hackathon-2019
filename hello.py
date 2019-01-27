@@ -9,4 +9,4 @@ def test2():
     return render_template('test2.html')
 
 if __name__ == '__main__':
-    app.run(debug=True, host='10.0.0.106')
+    app.run(debug=True, host='1.0.0.127')
