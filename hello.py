@@ -3,3 +3,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return "Hello World!"
+
+#RUN IN TERMINAL:
+#   export FLASK_APP=hello.py
+#   flask run
