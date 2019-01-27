@@ -21,7 +21,7 @@ def pull():
     for key in sorted(data, reverse=True):
         newData = data[key]
         print(key,newData)
-    
+
 def store(question,name,upvotes,answerstat,answers):
     with open("localtext.txt","a") as fp:
         enter = upvotes+"."+question+"."+name+"."+answerstat+"."
@@ -30,14 +30,11 @@ def store(question,name,upvotes,answerstat,answers):
         enter = enter[0:(len(enter)-1)] + "\n"
         fp.write(enter)
 
-    
-    
+
+
 
 old = get()
 while True:
     if old != get():
-        print(get())
+        return get()
         break
-        
-    
-
