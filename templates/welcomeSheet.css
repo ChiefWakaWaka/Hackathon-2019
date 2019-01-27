@@ -36,7 +36,16 @@
   border-radius: 30px;
   padding: 10px;
 }
-
 .block{
   padding: 15%;
+}
+.leftbar{
+  left: 0;
+  position: fixed;
+  height: 100%;
+}
+.rightbar{
+  right: 0;
+  position: fixed;
+  height: 100%;
 }
