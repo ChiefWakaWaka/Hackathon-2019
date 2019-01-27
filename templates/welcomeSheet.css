@@ -40,12 +40,28 @@
   padding: 15%;
 }
 .leftbar{
+  overflow: hidden;
+  text-align: center;
+  background-color: #f2f2f2;
   left: 0;
   position: fixed;
   height: 100%;
 }
 .rightbar{
+  overflow: hidden;
+  text-align: center;
+  background-color: #f2f2f2;
   right: 0;
   position: fixed;
   height: 100%;
+}
+.message{
+  overflow: hidden;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-style: solid;
+  border-color: transparent grey grey transparent;
+  border-width: 2px;
+  border-radius: 30px;
+  padding: 10px;
 }
