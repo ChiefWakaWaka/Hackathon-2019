@@ -39,14 +39,6 @@
 .block{
   padding: 15%;
 }
-.leftbar{
-  overflow: hidden;
-  text-align: center;
-  background-color: #f2f2f2;
-  left: 0;
-  position: fixed;
-  height: 100%;
-}
 .rightbar{
   overflow: hidden;
   text-align: center;
@@ -54,7 +46,16 @@
   right: 0;
   position: fixed;
   height: 100%;
+  width: 10%;
+  animation-name: contract;
+  animation-duration: 0.25s;
 }
+
+.rightbar:hover{
+  animation-name: expand;
+  animation-duration: 0.25s;
+}
+
 .message{
   overflow: hidden;
   text-align: center;
@@ -64,4 +65,14 @@
   border-width: 2px;
   border-radius: 30px;
   padding: 10px;
+}
+
+@keyframes expand {
+  from {width: 10%;}
+  to {width: 40%;}
+}
+
+@keyframes contract {
+  from {width: 40%;}
+  to {width: 10%;}
 }
