@@ -1,6 +1,3 @@
-var info = parse("32.0.23.1.2.yep.ok");
-console.log(info);
-
 function order(data){
     var newData = []
 	for(var i = 0; i < data.length; i++){
@@ -21,3 +18,6 @@ function parse(data){
     var newData = data.split(".");
     return newData;
 }
+
+var info = parse("32.0.23.1.2.yep.ok");
+console.log(info);
